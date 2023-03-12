@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&display=swap');
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+display: grid;
+place-items: center;
+}
+
+.reviews {
+padding: 15rem 2rem;
+border-radius: 0.25rem ;
+text-align: center;
+transition: 1.2s;
+}
+
+.reviews:hover {
+  box-shadow:  0 5px 15px rgba(0, 0, 0, 0.2);;
+}
+.image-container {
+  position: relative;
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.prev-btn,
+.next-btn {
+  color: hsl(205, 90%, 76%);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color:  hsl(205, 78%, 60%);
+}
+.randombtn {
+  margin-top: 0.5rem;
+  background:  hsl(205, 100%, 96%);;
+  color:  hsl(205, 78%, 60%);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  border-color:  hsl(205, 78%, 60%);
+  cursor: pointer;
+}
+.randombtn:hover {
+  background: hsl(205, 78%, 60%);
+  color:  hsl(205, 86%, 17%);
+}
+
